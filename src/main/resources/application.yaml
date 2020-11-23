@@ -1,0 +1,6 @@
+server:
+  port : 8083
+
+spring:
+  # Kafka broker config
+  cloud.stream.kafka.binder.brokers: localhost:9092
